@@ -38,6 +38,7 @@ group :test do
 	gem 'rb-fchange'
 	gem 'rb-notifu'
 	gem 'win32console'
+  gem "factory_girl_rails", "~> 3.0"
 end
 
 # To use ActiveModel has_secure_password
