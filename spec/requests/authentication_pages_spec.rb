@@ -28,8 +28,8 @@ describe "Authentication" do
   	describe "with valid information" do
       let(:user) {FactoryGirl.create(:user)}
       before do
-        fill_in 'session_email', with: user.email
-        fill_in 'session_password', with: user.password
+        fill_in 'email', with: user.email
+        fill_in 'password', with: user.password
         click_button 'Sign in'
       end
 
