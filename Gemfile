@@ -38,7 +38,9 @@ group :test do
 	gem 'rb-fchange'
 	gem 'rb-notifu'
 	gem 'win32console'
-  gem "factory_girl_rails", "~> 3.0"
+  gem 'factory_girl_rails', '~> 3.0'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 # To use ActiveModel has_secure_password
